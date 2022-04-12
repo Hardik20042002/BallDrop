@@ -1,0 +1,28 @@
+section{
+ height: 200px;
+ width: 200px;
+ margin: 20px auto;
+ animation-name: balldrop;
+ animation-duration: 1s;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;
+ animation-timing-function: ease-in;
+}
+@keyframes balldrop {
+ 100%{
+  transform: translateY(600px);
+ }
+}
+section img{
+ width: 100%;
+ height: 100%;
+ animation-name: ballrotate;
+ animation-duration: 2s;
+ animation-iteration-count: infinite;
+ animation-timing-function: linear;
+}
+@keyframes ballrotate {
+ 100%{
+  transform: rotate(360deg);
+ }
+}
